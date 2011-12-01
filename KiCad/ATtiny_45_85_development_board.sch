@@ -1,0 +1,334 @@
+EESchema Schematic File Version 1
+LIBS:SparkFun,.\ATtiny_45_85_development_board-cache-cache
+EELAYER 23 0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "ATtiny_45_85_development_board.sch"
+Date "1 DEC 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_CAP_POL C1
+U 1 1 4ED72F36
+P 2000 1850
+F 0 "C1" H 2040 1874 70 0000 L B
+F 1 "100uF" H 2039 1685 70 0000 L B
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_CAP C2
+U 1 1 4ED72F36
+P 2500 1850
+F 0 "C2" H 2559 1965 70 0000 L B
+F 1 "0.1uF" H 2560 1765 70 0000 L B
+	1    2500 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L FRAME_FRAME-LETTER FRAME1
+U 1 1 4ED72F36
+P 900 7750
+	1    900  7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FRAME_FRAME-LETTER FRAME1
+U 1 1 4ED72F36
+P 6700 7750
+	1    6700 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND1
+U 1 1 4ED72F36
+P 8300 5550
+F 0 "GND" H 8200 5450 70 0000 L B
+	1    8300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND2
+U 1 1 4ED72F36
+P 2500 2550
+F 0 "GND" H 2400 2450 70 0000 L B
+	1    2500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND3
+U 1 1 4ED72F36
+P 3500 2550
+F 0 "GND" H 3400 2450 70 0000 L B
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND4
+U 1 1 4ED72F36
+P 7300 4050
+F 0 "GND" H 7200 3950 70 0000 L B
+	1    7300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND5
+U 1 1 4ED72F36
+P 4500 5250
+F 0 "GND" H 4400 5150 70 0000 L B
+	1    4500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND6
+U 1 1 4ED72F36
+P 4700 3550
+F 0 "GND" H 4600 3450 70 0000 L B
+	1    4700 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L J_AVR_SPI_PRG_6 J1
+U 1 1 4ED72F36
+P 6700 3650
+F 0 "J1" H 6530 3880 70 0000 L B
+F 1 "AVR_SPI_PRG_62X3_LOCK" H 6540 3350 70 0000 L B
+	1    6700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_M04 JP1
+U 1 1 4ED72F36
+P 8600 4250
+F 0 "JP1" H 8400 4580 70 0000 L B
+	1    8600 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L JP_M04 JP2
+U 1 1 4ED72F36
+P 8600 5050
+F 0 "JP2" H 8400 5380 70 0000 L B
+	1    8600 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_LED LED1
+U 1 1 4ED72F36
+P 3500 1650
+F 0 "LED1" V 3640 1470 70 0000 L B
+	1    3500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+1
+U 1 1 4ED72F36
+P 7300 3350
+F 0 "VCC" H 7261 3490 70 0000 L B
+	1    7300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+2
+U 1 1 4ED72F36
+P 8300 3950
+F 0 "VCC" H 8261 4090 70 0000 L B
+	1    8300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+3
+U 1 1 4ED72F36
+P 2500 1350
+F 0 "VCC" H 2461 1490 70 0000 L B
+	1    2500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+4
+U 1 1 4ED72F36
+P 3500 1350
+F 0 "VCC" H 3461 1490 70 0000 L B
+	1    3500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+5
+U 1 1 4ED72F36
+P 4500 4250
+F 0 "VCC" H 4461 4390 70 0000 L B
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L P+_VCC P+6
+U 1 1 4ED72F36
+P 5500 2750
+F 0 "VCC" H 5461 2890 70 0000 L B
+	1    5500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_RESISTOR R1
+U 1 1 4ED72F36
+P 3500 2150
+F 0 "R1" H 3350 2208 70 0000 L B
+F 1 "490k" H 3351 2020 70 0000 L B
+	1    3500 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_RESISTOR R2
+U 1 1 4ED72F36
+P 5500 3150
+F 0 "R2" H 5350 3208 70 0000 L B
+F 1 "10k" H 5351 3020 70 0000 L B
+	1    5500 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L S_TAC_SWITCH S1
+U 1 1 4ED72F36
+P 5300 3650
+F 0 "S1" H 5201 3900 70 0000 L B
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_ATTINY45 U$1
+U 1 1 4ED72F36
+P 5200 4750
+F 0 "ATTINY45DIP8" H 4700 4351 70 0000 L B
+F 1 "U$1" H 4700 5150 70 0000 L B
+	1    5200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_OSHW-LOGO U$2
+U 1 1 4ED72F36
+P 9800 5750
+	1    9800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+3500 2350 3500 2450
+Wire Wire Line
+4600 4950 4500 4950
+Wire Wire Line
+4500 4950 4500 5150
+Wire Wire Line
+7100 3750 7300 3750
+Wire Wire Line
+7300 3750 7300 3950
+Wire Wire Line
+8400 5250 8300 5250
+Wire Wire Line
+8300 5250 8300 5450
+Wire Wire Line
+5100 3750 4700 3750
+Wire Wire Line
+4700 3750 4700 3650
+Wire Wire Line
+2500 2250 2500 2450
+Wire Wire Line
+2000 2050 2000 2250
+Wire Wire Line
+2000 2250 2500 2250
+Wire Wire Line
+2500 2250 2500 2050
+Connection ~ 2500 2250
+Wire Wire Line
+3500 1850 3500 1950
+Wire Wire Line
+5700 4450 7500 4450
+Wire Wire Line
+7500 4450 8400 4450
+Wire Wire Line
+7100 3650 7500 3650
+Wire Wire Line
+7500 3650 7500 4450
+Connection ~ 7500 4450
+Wire Wire Line
+6300 4950 8400 4950
+Wire Wire Line
+6400 3750 6300 3750
+Wire Wire Line
+6300 3750 5500 3750
+Wire Wire Line
+6300 3750 6300 4950
+Wire Wire Line
+5700 4950 6300 4950
+Connection ~ 6300 3750
+Connection ~ 6300 4950
+Wire Wire Line
+5700 4550 6100 4550
+Wire Wire Line
+6100 4550 8300 4550
+Wire Wire Line
+8300 4550 8300 4350
+Wire Wire Line
+8300 4350 8400 4350
+Wire Wire Line
+6400 3550 6100 3550
+Wire Wire Line
+6100 3550 6100 4550
+Connection ~ 6100 4550
+Wire Wire Line
+5700 4650 6200 4650
+Wire Wire Line
+6200 4650 8200 4650
+Wire Wire Line
+8200 4650 8200 4250
+Wire Wire Line
+8200 4250 8400 4250
+Wire Wire Line
+6400 3650 6200 3650
+Wire Wire Line
+6200 3650 6200 4650
+Connection ~ 6200 4650
+Wire Wire Line
+5500 3650 5500 3350
+Wire Wire Line
+5700 4750 8300 4750
+Wire Wire Line
+8300 4750 8300 5050
+Wire Wire Line
+8300 5050 8400 5050
+Wire Wire Line
+5700 4850 8200 4850
+Wire Wire Line
+8200 4850 8200 5150
+Wire Wire Line
+8200 5150 8400 5150
+Wire Wire Line
+3500 1550 3500 1350
+Wire Wire Line
+4600 4450 4500 4450
+Wire Wire Line
+4500 4450 4500 4250
+Wire Wire Line
+7100 3550 7300 3550
+Wire Wire Line
+7300 3550 7300 3350
+Wire Wire Line
+8400 4150 8300 4150
+Wire Wire Line
+8300 4150 8300 3950
+Wire Wire Line
+5500 2950 5500 2750
+Wire Wire Line
+2500 1750 2500 1550
+Wire Wire Line
+2500 1550 2500 1350
+Wire Wire Line
+2000 1550 2500 1550
+Wire Wire Line
+2000 1750 2000 1550
+Connection ~ 2500 1550
+$EndSCHEMATC
