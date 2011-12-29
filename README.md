@@ -37,6 +37,19 @@ files for KiCad in the aptly named folder in this repository. To use this projec
 containing these files into a folder of your choice. Then open KiCad and navigate to File -> Open -> 
 'FOLDER_OF_YOUR_CHOICE' -> ATtiny_45_and_85_development_board.pro
 
+BILL OF MATERIALS
+-----------------
+
+ * 1 x ATtiny 45/85 µC (http://littlebirdelectronics.com/products/avr-8-pin-20mhz-8k-4ad-attiny85)
+ * 1 x 8-pin DIP socket (http://littlebirdelectronics.com/products/dip-sockets-solder-tail-8pin)
+ * 2 x Female Header - 1x4-pin, Straight (http://littlebirdelectronics.com/products/0100-254-mm-female-header-1x4-pin-straight)
+ * 1 x Break Away Header - Right Angle (http://littlebirdelectronics.com/products/break-away-headers-right-angle)
+ * 1 x 5mm Green LED (http://littlebirdelectronics.com/products/basic-led-5mm-green)
+ * 1 x 10uF Capacitor (http://littlebirdelectronics.com/products/electrolytic-decoupling-capacitors-10uf-25v)
+ * 1 x 0.1uF Ceramic Capacitor (http://littlebirdelectronics.com/products/capacitor-ceramic-0-1uf)
+ * 1 x 10K 1/4 resistor & 490K 1/4 resistor [swap for 470K] (http://littlebirdelectronics.com/products/14-watt-carbon-film-resistors-300-pieces)
+ 8 1 x Mini Push Button Switch (http://littlebirdelectronics.com/products/mini-push-button-switch)
+
 DISTRIBUTION
 ------------
 The specific terms of distribution of this project are governed by the license referenced below.
