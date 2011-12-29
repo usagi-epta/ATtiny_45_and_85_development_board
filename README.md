@@ -48,7 +48,7 @@ BILL OF MATERIALS
  * 1 x 10uF Capacitor (http://littlebirdelectronics.com/products/electrolytic-decoupling-capacitors-10uf-25v)
  * 1 x 0.1uF Ceramic Capacitor (http://littlebirdelectronics.com/products/capacitor-ceramic-0-1uf)
  * 1 x 10K 1/4 resistor & 490K 1/4 resistor [swap for 470K] (http://littlebirdelectronics.com/products/14-watt-carbon-film-resistors-300-pieces)
- 8 1 x Mini Push Button Switch (http://littlebirdelectronics.com/products/mini-push-button-switch)
+ * 1 x Mini Push Button Switch (http://littlebirdelectronics.com/products/mini-push-button-switch)
 
 DISTRIBUTION
 ------------
