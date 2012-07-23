@@ -13708,11 +13708,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
 </packages>
 <symbols>
 <symbol name="OSHW-LOGO">
@@ -17269,11 +17264,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
-<symbol name="CREATIVE_COMMONS">
-<text x="0" y="5.08" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="0" y="0" size="1.778" layer="95">Design by:</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OSHW-LOGO">
@@ -17293,19 +17283,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CREATIVE_COMMONS">
-<description>Creative Commons License summary</description>
-<gates>
-<gate name="G$1" symbol="CREATIVE_COMMONS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -17355,10 +17332,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U$4" library="dcsocket" deviceset="DC21" device=""/>
 <part name="U$3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="JP3" library="SparkFun" deviceset="M04" device="LOCK"/>
-<part name="JP4" library="SparkFun" deviceset="M04" device="LOCK"/>
+<part name="|" library="SparkFun" deviceset="M04" device="LOCK"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
-<part name="U$2" library="SparkFun-Aesthetics" deviceset="CREATIVE_COMMONS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17415,10 +17391,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="U$4" gate="G$1" x="86.36" y="104.14"/>
 <instance part="U$3" gate="G$1" x="60.96" y="-38.1"/>
 <instance part="JP3" gate="G$1" x="58.42" y="109.22" rot="R180"/>
-<instance part="JP4" gate="G$1" x="58.42" y="48.26" rot="R180"/>
+<instance part="|" gate="G$1" x="58.42" y="48.26" rot="R180"/>
 <instance part="GND2" gate="1" x="50.8" y="38.1"/>
 <instance part="P+3" gate="1" x="50.8" y="114.3"/>
-<instance part="U$2" gate="G$1" x="-66.04" y="-45.72"/>
 </instances>
 <busses>
 </busses>
@@ -17529,7 +17504,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U$4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="4"/>
+<pinref part="|" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="43.18" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -17572,7 +17547,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="S1" gate="S" pin="3"/>
 <wire x1="-20.32" y1="104.14" x2="-20.32" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-20.32" y="101.6"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="|" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="50.8" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
@@ -17621,7 +17596,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="50.8" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PB3(ADC3)"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="|" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="48.26" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
@@ -17634,7 +17609,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="48.26" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PB4(ADC2)"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
-<pinref part="JP4" gate="G$1" pin="3"/>
+<pinref part="|" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="45.72" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
 </segment>
